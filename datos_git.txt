@@ -1,0 +1,6 @@
+react page
+git remote add origin git@github.com:pame-jcm/desafio-lt-estado-componentes-react.git
+
+
+react code
+git remote add origin git@github.com:pame-jcm/desafio-lt-estado-componentes-react-code.git

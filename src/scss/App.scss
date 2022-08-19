@@ -1,0 +1,13 @@
+
+
+// Abstract
+@import 'abstract/variables';
+
+// Base
+@import 'base/base';
+
+// Components
+@import 'components/frame';
+
+/* import bootstrap para establecer cambios */ 
+@import  "../../node_modules/bootstrap/scss/bootstrap.scss";

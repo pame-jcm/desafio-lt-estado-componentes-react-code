@@ -1,0 +1,49 @@
+// FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+
+$font-family-sans-serif: 'Raleway', sans-serif;
+$component-active-bg:#E56353;
+// THEME COLORS
+
+$theme-tia-tomate: (
+    'white':#fff,
+    'snow':#FAFAFA,
+    'quick':#A0A0A0,
+    'jelly':#E56353,
+    'salmon': #E97F72,
+    'pastel': #F0A9A1,
+    'granite': #686963,
+    'taupe': #91918D,
+    'gray': #BABAB8
+);
+
+
+// TOOLTIPS 
+
+$tooltip-bg: #a0a0a0;
+
+// BUTTONS
+
+$enable-shadows:true;
+$enable-gradients:true;
+
+$btn-padding-x: 3em;
+$btn-padding-x-sm: 2em;
+$btn-padding-x-lg: 4em;
+
+$btn-border-radius: 5rem;
+$btn-border-radius-sm: 5rem;
+$btn-border-radius-lg: 5rem;
+
+// DECLARATION
+
+@import '../../../node_modules/bootstrap/scss/_functions.scss';
+@import '../../../node_modules/bootstrap/scss/_variables.scss';
+@import '../../../node_modules/bootstrap/scss/_mixins.scss';
+
+$theme-colors: map-merge($theme-colors, $theme-tia-tomate);
+
+
+
+
